@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  width: 320px;
+}
+
 .link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
@@ -34,6 +38,7 @@ html {
   color: #fff;
 }
 
+
 .link-card dt {
   display: inline-block;
   width: 6.5em;
@@ -42,6 +47,7 @@ html {
 .link-card dd {
   display: inline-block;
   font-style: italic;
+  min-width: 9em;
 }
 
 .btn-wrap {
